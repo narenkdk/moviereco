@@ -43,10 +43,3 @@ if st.button('Show Recommendation'):
         with cols[i]:
             st.text(recommended_movie_names[i])
             st.image(recommended_movie_posters[i])
-
-
-selected_movie_name = st.selectbox(
-    "Choose your movie",
-    movies['title'].values,
-    key='movie_selectbox')  # Unique key for selectbox
-
