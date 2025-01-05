@@ -86,5 +86,4 @@ if st.button('Show Recommendation'):
     for i in range(min(5, len(recommended_movie_names))):  # Ensure we don't exceed available recommendations
         with cols[i]:
             st.text(recommended_movie_names[i])
->>>>>>> 6a47a6df98c847bdba801cecaf911fae81851888
             st.image(recommended_movie_posters[i])
