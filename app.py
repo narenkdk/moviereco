@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import pickle
 import pandas as pd
@@ -42,7 +41,7 @@ if st.button('Show Recommendation'):
     for i in range(min(5, len(recommended_movie_names))):  # Ensure we don't exceed available recommendations
         with cols[i]:
             st.text(recommended_movie_names[i])
-=======
+            
 import streamlit as st
 import pickle
 import pandas as pd
